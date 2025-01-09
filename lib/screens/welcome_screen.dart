@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'signin_screen.dart';
+import 'signup_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -38,14 +40,14 @@ class WelcomeScreen extends StatelessWidget {
                 children: <Widget>[
                   ElevatedButton(
                     onPressed: () {
-
+                      Navigator.pushNamed(context, '/signIn');
                     },
                     child: Text('Sign In'),
                   ),
                    SizedBox(width: 20),
                    ElevatedButton(
                     onPressed: () {
-
+                      Navigator.pushNamed(context, '/signUp');
                     },
                     child: Text('Sign Up'),
                   ),
