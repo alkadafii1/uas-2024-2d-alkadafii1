@@ -7,6 +7,11 @@
 
 ## Getting Started
 
+![Screenshoot](assets-1.png)
+![Screenshoot](assets-2.png)
+![Screenshoot](assets-3.png)
+![Screenshoot](assets-4.png)
+![Screenshoot](assets-5.png)
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
