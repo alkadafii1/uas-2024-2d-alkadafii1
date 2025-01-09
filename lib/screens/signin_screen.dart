@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'signup_screen.dart';
 
 class SignInScreen extends StatefulWidget {
   @override
@@ -96,7 +97,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   TextButton(
                     onPressed: () {
                       
-                      Navigator.pushNamed(context, '/signup'); 
+                      Navigator.pushNamed(context, '/signUp'); 
                     },
                     child: const Text(
                       'Sign up now',
