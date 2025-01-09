@@ -55,7 +55,7 @@ class _SignInScreenState extends State<SignInScreen> {
             Center(
               child: ElevatedButton(
                 onPressed: () {
-                
+                Navigator.pushReplacementNamed(context, '/home');
                 },
                 child: const Text('Sign In'),
               ),
