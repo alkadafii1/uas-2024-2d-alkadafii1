@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:template_project/screens/profile_screen.dart';
 import 'message_screen.dart';
+import 'profile_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final String userName;
@@ -140,7 +142,7 @@ class HomeScreen extends StatelessWidget {
         
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => MessageScreen()),
+                MaterialPageRoute(builder: (context) => ProfileScreen()),
               );
           }
         },
